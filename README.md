@@ -14,4 +14,4 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Work was continued based off the following repo link on GitHub: https://github.com/udacity/pdsnd_github.git
