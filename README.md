@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+4/15/2019
 
 ### Project Title
-Replace the Project Title
+Git Course Final Project
 
 ### Description
-Describe what your project is about and what it does
+Project is about using Git and demonstrating my ability to use it. Once complete, the project will be uploaded to GitHub.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Work was continued based off the following repo link on GitHub: https://github.com/udacity/pdsnd_github.git
