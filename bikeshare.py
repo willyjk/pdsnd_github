@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 CITY_SELECT = ['chicago', 'new york city', 'washington']
 MONTH_SELECT = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-WEEKDAY_NAME = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
+WEEKDAY = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
 
 def get_filters():
     """
@@ -39,7 +39,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input('Now select a day of the week you would like to see data for. If you would like to see all days, type \'all\'. \n').lower()
-        if day in WEEKDAY_NAME:
+        if day in WEEKDAY:
             break
         else:
             print('Incorrect input. Please enter one of days of the week and make sure you\'re using the correct spelling. If you would like to not filter, type \'all\. \n')
@@ -155,10 +155,10 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     birth_year = df['Birth Year']
     earliest_year = birth_year.min()
-    most_recent_year = birth_year.max()
+    latest_year = birth_year.max()
     most_common_year = birth_year.mode()[0]
     print('The oldest user was born in', int(earliest_year))
-    print('The youngest user was born in', int(most_recent_year))
+    print('The youngest user was born in', int(latest_year))
     print('The average user was born in', int(most_common_year))
 
 
