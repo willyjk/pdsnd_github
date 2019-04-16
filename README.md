@@ -5,7 +5,7 @@
 Git Course Final Project
 
 ### Description
-Describe what your project is about and what it does
+Project is about using Git and demonstrating my ability to use it. Once complete, the project will be uploaded to GitHub.
 
 ### Files used
 Include the files used
